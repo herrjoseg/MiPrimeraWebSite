@@ -637,6 +637,10 @@ h3 {
   text-shadow: 1px 1px 5px rgb(59, 59, 59);
 }
 
+.greeting {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .column {
     flex: 100%;
