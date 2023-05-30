@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Primer Website</title>
+        <link rel="stylesheet" type="text/css" href="./style01.css">
+    </head>
+
+    <body>
+        <header class="container-nav">
+            <nav class="navbar">
+              <a href="#" class="brand">Jose G. Herrera</a>
+              <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+            <div class="myImagen"></div>
+        </header>
+
+        <main class="about">
+            
+          <h1>Acerca de</h1>
+          <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+            <section class="container-contact">
+                
+            </section>
+
+        </main>
+        
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer-info">
+                    <div class="about-me">
+                        <p class="title-about-me">Jose G. Herrera</p>
+                        <p class="parrafo-footer">Estudiante de Full Stack en Egg Cooperation<br>
+                            herrjose@gmail.com<br>
+                            +57-314-747-4449<br>
+                            Barranquilla - Colombia
+                        </p>
+                    </div>
+                    <div class="links-redes-sociales">
+                        <div class="title-links-redes-sociales"><p>Siguenos</p></div>
+                        <p class="parrafo-footer">En nuestras redes sociales</p>
+                        <div class="logos-redes-sociales">
+                            <a href="https://github.com/"><img src="./img/logoGithub1.png" alt="" width="30px"></a>
+                            <a href="https://www.linkedin.com/"><img src="./img/LogoLinkedin.png" alt="" width="30px"></a>
+                            <a href="https://www.whatsapp.com/"><img src="./img/logoWhatsapp1.png" alt="" width="30px"></a>
+                        </div>
+                    </div>
+                    <div class="newsletter">
+                        <div class="title-newsletter"><p>Newsletter</p></div>
+                        <p class="parrafo-footer">Suscribete y enterate de nuestro avance</p>
+                        <div><input type="email" class="input-email" placeholder="correo electrónico"></div>
+                        <div>
+                            <input type="checkbox" class="check-input">
+                            <label class="check-label" >Acepto términos y condicones</label>
+                        </div>
+                        <div><button type="submit" class="btn-suscribirme" onclick="showAlert()">Suscribirme</button></div>
+
+                    </div>
+                </div>
+                <div class="row-footer-info-contact">
+                    <p style="text-align: center;">&copy; Jose G. Herrera E. - 2023</p>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
