@@ -1,3 +1,5 @@
+@import url("./normalize.css");
+
 :root {
   --background-h1:rgba(0, 0, 0, 0.562);
 }
@@ -6,8 +8,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 
 /* ------main-de-sevicios-------*/
 
@@ -85,7 +85,6 @@ header{
   text-align: justify;
   border-color: darkgoldenrod;
 }
-
 
 h1 {
   display: flex;
@@ -277,7 +276,6 @@ footer p {
   /* border: 1px solid red */
 }
 
-
 .column {
   /* flex:auto; */
   display: flex;
@@ -445,17 +443,14 @@ li>a {
   padding: 8px 24px;
 }
 
-
 li {
   list-style-type: none;
 }
-
 
 a {
   color: white;
   text-decoration:none;
 }
-
 
 .nav-links {
   display: flex;
@@ -477,7 +472,6 @@ a {
   text-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
 
-
 .button-menu-toggle {
   display: none;
 }
@@ -491,7 +485,6 @@ a {
   .nav-links {
     display: none;
   }
-
 
   .button-menu-toggle {
     display: block;
@@ -569,7 +562,6 @@ a {
   box-shadow: 0px 0px 15px rgb(153, 153, 153);
   /* border: 2px solid green; */
 }
-
 
 #desarrollo-de-sitios-web h2 {
   
