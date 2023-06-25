@@ -4,7 +4,7 @@ const pdatosAboutMe = document.getElementById("p-about-me")
 let nombre = "Jose G. Herrera";
 let ocupacion ="Estudiante de Full Stack en Egg Cooperation";
 let correo = "mi_correo@gmail.com";
-let telefono = "300-000-0000";
+let telefono = "300-000-1111";
 let ubicacion = "Barranquilla - Colombia";
 
 ptitleAboutMe.innerHTML = nombre;
